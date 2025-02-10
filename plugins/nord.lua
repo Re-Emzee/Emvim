@@ -17,7 +17,7 @@ return {
         vim.g.nord_background = opts.background
   
         -- Apply the Nord theme
-        vim.cmd('colorscheme nord')
+        -- vim.cmd('colorscheme nord')
       end
     }
   }
