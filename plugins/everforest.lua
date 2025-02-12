@@ -4,9 +4,9 @@ return {
     name = "everforest",
     opts = {
       background = "hard", -- Options: 'hard', 'medium', 'soft'
-      transparent = true,   -- Enable/disable transparency
-      italic = true,         -- Enable italic text for comments, etc.
-      contrast = true,       -- Enable higher contrast
+      transparent = false, -- Enable/disable transparency
+      italic = true, -- Enable italic text for comments, etc.
+      contrast = true, -- Enable higher contrast
     },
     config = function(_, opts)
       -- Set theme options using vim.g
